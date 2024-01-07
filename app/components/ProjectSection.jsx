@@ -77,6 +77,33 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 9,
+    title: "Twitch Schedule",
+    description: "Designed twitch schedule with Canva",
+    image: "/images/projects/schedule.png",
+    tag: ["All", "Design"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 10,
+    title: "Twitch BRB Screen",
+    description: "Designed be right back screen with Canva",
+    image: "/images/projects/brbscreen.png",
+    tag: ["All", "Design"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 11,
+    title: "Twitch Offline Screen",
+    description: "Designed offline line screen with Canva",
+    image: "/images/projects/offline.png",
+    tag: ["All", "Design"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
 ];
 const ProjectsSection = () => {
     const [tag, setTag] = useState("All");
