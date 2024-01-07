@@ -11,8 +11,9 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Jira</li>
         <li>Trello</li>
+        <li>Google Suite</li>
         <li>Unity</li>
-        <li>Unreal</li>
+        <li>Github</li>
         <li>Javascript</li>
         <li>React</li>
         <li>Python</li>
@@ -27,8 +28,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Pasadena City College</li>
-        <li>University of California, Irvine</li>
+        <li>Pasadena City College (Honors Program)</li>
+        <li>University of California, Irvine (Honors Program)</li>
       </ul>
     )
   },
@@ -37,9 +38,13 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>PSM 1</li>
-        <li>PSPO 1</li>
-        <li>Udemy Jira + Confluence Certification</li>
+        <li>Project Management</li>
+        <li>Introduction to Software Engineering</li>
+        <li>Requirements Analysis and Engineering</li>
+        <li>Software Design: Applications</li>
+        <li>Human Computer Interaction</li>
+        <li>Organizational Information Systems</li>
+        <li>Udemy Jira/Confluence + Scrum Master</li>
       </ul>
     )
   },
@@ -86,7 +91,7 @@ const AboutSection = () => {
                   active={tab === "certifications"}
                   > 
                   {" "}
-                  Certifications{" "} 
+                  Relevant Courses{" "} 
                   </TabButton>
                 </div>
                 <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
