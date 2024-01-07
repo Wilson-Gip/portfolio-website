@@ -68,7 +68,7 @@ const AboutSection = () => {
                 <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                 <p className="text-base lg:text-lg">
                     I am an aspiring producer and engineer with a passion for creating fun and engaging games and responsive web applications. 
-                    I have experience working with Unity, Unreal, and Web Development as well as many other programming languages and tools.
+                    I have experience working with Unity and Web Development as well as many other programming languages and tools.
                     I am a quick learner, and I am always looking to expand and adapt my knowledge and skill set. I am a team player, and I am excited to work with others to create amazing projects!
                 </p>
                 <div className="flex flex-row justify-start mt-8">
