@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/blog.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Wilson-Gip/blog-website-2",
-    previewUrl: "https://www.youtube.com/",
+    previewUrl: "https://blog-website-2.vercel.app/",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Puts customizable captions on 16:9 video files",
     image: "/images/projects/captions.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Wilson-Gip/captions-website",
+    previewUrl: "https://captions-website.vercel.app/",
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: "This website!",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Wilson-Gip/portfolio-website",
+    previewUrl: "https://portfolio-website-swart-delta.vercel.app/",
   },
   {
     id: 4,
@@ -38,8 +38,8 @@ const projectsData = [
     description: "NextJS, Server Actions, Framer Motions ",
     image: "/images/projects/anime.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Wilson-Gip/AnimeCollection",
+    previewUrl: "https://anime-collection-wine.vercel.app/",
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const projectsData = [
     description: "Simple To-do List to learn React components, hooks, states",
     image: "/images/projects/todo.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Wilson-Gip/to-do-list-app",
+    previewUrl: "https://to-do-list-app-seven-sigma.vercel.app/",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/sprout.png",
     tag: ["All", "Games"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://rmf-andyplayz.itch.io/sprout",
   },
   {
     id: 7,
